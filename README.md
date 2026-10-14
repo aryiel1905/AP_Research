@@ -16,6 +16,12 @@ If its toolbar icon is hidden, open the Extensions/puzzle menu and pin **AP Rese
 
 For updates and removal, see [the installer guide](README_AP_Research_Installer.md). The extension's feature description is in [its own README](AP-Research-v1.0.1/AP-Research/README.md).
 
+## Source and development
+
+The unpacked extension source is in [`AP-Research-v1.0.1/AP-Research/`](AP-Research-v1.0.1/AP-Research/). To inspect or modify it locally, open `chrome://extensions/` or `brave://extensions/`, enable Developer mode, and use **Load unpacked** on that folder. The checked-in `vendor/` files are required by the extension; local ZIP and CRX packages are ignored.
+
+See [PRIVACY.md](PRIVACY.md) for the extension's data handling policy.
+
 ## Permissions and data
 
 The manifest requests `activeTab`, `scripting`, `downloads`, `clipboardWrite`, `storage`, `offscreen`, and host access that includes `<all_urls>`. Review these permissions before loading the extension. Its bundled suburb and ABS locality JSON files are stored in the extension folder; learned suburb suggestions and the latest search are stored in browser extension storage.
