@@ -1,0 +1,23 @@
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated packages, logs, and temporary output
+*.zip
+*.crx
+*.log
+*.tmp
+dist/
+build/
